@@ -57,7 +57,7 @@ qm set 5000 --serial0 socket --vga serial0
 ### Controller - Ubuntu Jammy
 
 1. Faça o download da imagem do Ubuntu Cloud para o controller:
-   - [Ubuntu Jammy (Controller)] (https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64-disk-kvm.img)
+   - [Ubuntu Jammy (Controller)](https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64-disk-kvm.img)
 
 2. Conecte-se via SSH ao seu servidor Proxmox.
 
@@ -84,11 +84,21 @@ qm set 6000 --boot c --bootdisk scsi0
 qm set 6000 --serial0 socket --vga serial0
 ```
 
+## Installar qemu-guest-agent 
+```bash
+sudo apt install qemu-guest-agent
+sudo shutdown -r now
+```
+### Parar a vm e habilitar o qemu
+![Minhas Imagem](img/qemu.png){width=1000 height=500}
+
+
+
 ## Template Cloud-Init
-Ao criar novas VMs, você pode usar um template Cloud-Init para configurar, e clicar em converter em modelo automaticamente o nome de usuário, senha e usar DHCP para o endereço IP. Aqui está um exemplo de template:
+Ao criar novas VMs, você deve criar um templeta, e clicar em "converter em modelo" automaticamente o nome de usuário, senha e usar DHCP para o endereço IP. Aqui está um exemplo de template:
 
 
-![Minhas Imagem](img/create-templeta.png){width=1000 height=500}
+![Minhas Imagem](img/create-templet.png){width=1000 height=500}
 
 Lembre-se de substituir seu-usuario, SUA-CHAVE-SSH-AQUI e senha-cifrada-aqui pelos seus próprios valores. A senha deve ser criptografada para o campo passwd. Você pode gerar uma senha criptografada usando a ferramenta mkpasswd ou uma alternativa semelhante.
 
