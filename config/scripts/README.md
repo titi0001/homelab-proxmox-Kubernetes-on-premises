@@ -10,6 +10,7 @@ Os seguintes scripts bash foram criados para simplificar a configuração do Kub
 
 1. **01-config-netplan.sh**
     - Configura o Netplan para ajustes específicos de rede.
+    - alterar o script `/scripts/01-config-netplan.sh` e colocar os respectivos ip e dns
 
 2. **02-config-containerd.sh**
     - Configura o Containerd, o runtime de contêineres do Kubernetes.

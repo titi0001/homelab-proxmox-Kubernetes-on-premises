@@ -15,9 +15,11 @@ Este guia fornece uma visão geral dos passos necessários para configurar um am
 - [x]   3. **Instalação e Configuração do Kubectl:**
            - Instale o Kubectl em sua máquina local.
            - Configure-o para se conectar ao cluster Kubernetes.
+           - Você pode usar o script `/scripts/03-config-kubectl.sh` fornecido para auxiliar na configuração.
 
 - [ ]  4. **RBAC (Role-Based Access Control):**
            - Configure políticas RBAC para gerenciar permissões no cluster.
+           - Você pode usar o script `/scripts/04-config-Kubectl.sh` fornecido para auxiliar na configuração.
 
 - [ ]  5. **Monitoramento e Logging:**
            - Implemente soluções de monitoramento como Prometheus.
