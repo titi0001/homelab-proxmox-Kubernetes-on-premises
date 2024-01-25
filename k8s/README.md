@@ -17,7 +17,7 @@ Este guia fornece uma visão geral dos passos necessários para configurar um am
            - Configure-o para se conectar ao cluster Kubernetes.
            - Você pode usar o script `/scripts/03-config-kubectl.sh` fornecido para auxiliar na configuração.
 
-- [ ]  4. **RBAC (Role-Based Access Control):**
+- [x]  4. **RBAC (Role-Based Access Control):**
            - Configure políticas RBAC para gerenciar permissões no cluster.
            - Você pode usar o script `/scripts/04-config-Kubectl.sh` fornecido para auxiliar na configuração.
 
@@ -25,7 +25,7 @@ Este guia fornece uma visão geral dos passos necessários para configurar um am
            - Implemente soluções de monitoramento como Prometheus.
            - Considere ferramentas de logging como Fluentd ou Elasticsearch.
 
-- [ ]  6. **Helm:**
+- [x]  6. **Helm:**
           - Utilize Helm para gerenciar e implantar aplicações no Kubernetes.
 
 - [ ]  7. **Gestão de Configuração:**
