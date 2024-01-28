@@ -50,4 +50,9 @@ Este repositório fornece uma visão geral das principais partes de um cluster K
 
 - Interface de linha de comando (CLI) para interagir com o cluster Kubernetes.
 
+## DaemonSet
+
+  - Um DaemonSet no Kubernetes garante que pelo menos uma instância de um pod específico seja executada em cada nó do cluster, permitindo a distribuição de serviços ou agentes em todos os nós de forma escalável e automatizada.
+
+
 Este guia básico fornece uma visão geral das principais partes do Kubernetes. Consulte a documentação oficial do Kubernetes para obter informações mais detalhadas e avançadas: [Documentação do Kubernetes](https://kubernetes.io/docs/).
