@@ -15,7 +15,7 @@ Este repositório fornece instruções e configurações básicas para implement
    Siga as instruções específicas do MetalLB para instalar a ferramenta no seu cluster Kubernetes. Geralmente, isso envolverá a aplicação de manifestos YAML.
 
 ```bash
-    kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.13.12/config/manifests/metallb-native.yaml
+    kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.14.3/config/manifests/metallb-native.yaml
 ```
 
 
