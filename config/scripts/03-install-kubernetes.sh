@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get install -y apt-transport-https ca-certificates curl
 # Adiciona a chave GPG do repositório Kubernetes
 curl -fsSL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-archive-keyring.gpg
 
