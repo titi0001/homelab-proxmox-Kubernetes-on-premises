@@ -7,6 +7,5 @@
  ```bash
  curl -LO https://github.com/vmware-tanzu/velero/releases/download/v1.13.0/velero-v1.13.0-linux-amd64.tar.gz
 tar -xzvf velero-v1.13.0-linux-amd64.tar.gz
-sudo mv velero-v1.13.0-linux-amd64/velero /usr/local/bin/
+sudo mv velero-v1.13.0-linux-amd64/velero /usr/local/bin/velero
 ```
-
